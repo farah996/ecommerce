@@ -1,0 +1,32 @@
+{
+    "name": "ecommerce",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack serve"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "@laylazi/bootstrap-rtl": "^4.6.0-1",
+        "optimize-css-assets-webpack-plugin": "^5.0.4"
+    },
+    "devDependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.3",
+        "bootstrap": "^4.6.0",
+        "css-loader": "^5.2.4",
+        "expose-loader": "^2.0.0",
+        "file-loader": "^6.2.0",
+        "html-loader": "^1.3.2",
+        "html-webpack-plugin": "^4.5.0",
+        "jquery": "^3.6.0",
+        "mini-css-extract-plugin": "^1.6.0",
+        "popper.js": "^1.16.1",
+        "style-loader": "^2.0.0",
+        "webpack": "^5.36.2",
+        "webpack-cli": "^4.6.0",
+        "webpack-dev-server": "^3.11.2"
+    }
+}
