@@ -11,4 +11,8 @@ import '@fortawesome/fontawesome-free/js/all.min';
 $(function() {
 
     $('[data-toggle="tooltip"]').tooltip();
+
+    $('.add-to-cart-btn').click(function() {
+        alert('أضيف المُنتج إلى عربة الشراء');
+    });
 });
