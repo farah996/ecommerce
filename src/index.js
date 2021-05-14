@@ -15,4 +15,7 @@ $(function() {
     $('.add-to-cart-btn').click(function() {
         alert('أضيف المُنتج إلى عربة الشراء');
     });
+
+
+    $('#copyright').text("جميع الحقوق محفوظة للمتجر السنة " + new Date().getFullYear());
 });
