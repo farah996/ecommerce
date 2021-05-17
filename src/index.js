@@ -73,9 +73,11 @@ $(function() {
             var totalPriceForProduct = pricePerUnit * quantity;
 
             // أضف السعر الإجمالي لهذا المنتج إلى السعر الإجمالي لكل المُنتجات، واحفظ القيمة في المتغير نفسه
-            totalPriceForAllProducts = totalPriceForAllProducts + (totalPriceForProduct);
+            totalPriceForAllProducts = totalPriceForAllProducts + totalPriceForProduct;
         });
 
+        //حدث السعر الإجمالي لكل المنتجات في الصفحة 
+        $('#total-price-for-all-product').text(totalPriceForAllProduct + '$');
 
     }
 });
