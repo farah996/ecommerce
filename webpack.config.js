@@ -128,6 +128,11 @@ module.exports = {
             template: "./src/payment.html",
         }),
 
+        new HtmlWebpackPlugin(),
+        new HtmlWebpackPlugin({
+            filename: "search.html",
+            template: "./src/search.html",
+        }),
 
         new MiniCssExtractPlugin({ filename: "css/style.css" }),
 
