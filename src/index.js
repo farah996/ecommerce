@@ -5,7 +5,9 @@ import 'jquery/dist/jquery.min.js';
 import 'popper.js/dist/popper.min';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import '@fortawesome/fontawesome-free/js/all.min';
-
+import 'webpack-jquery-ui';
+import 'webpack-jquery-ui/css';
+import 'jquery-ui-touch-punch/jquery.ui.touch-punch.min.js';
 
 
 $(function() {

@@ -849,10 +849,62 @@ SEARCH PAGE
     display: table;
 }
 
+#form-advanced-search .custom-panel {
+    border: none;
+    padding: 5px;
+}
+
+.custom-panel .card-header {
+    background-color: transparent;
+    margin-bottom: 15px;
+    padding: 7px 10px 13px;
+}
+
+.custom-list-group>.list-group-item {
+    border: none;
+    padding: 0 10px 14px 0;
+}
+
+.custom-list-group>.list-group-item:last-child {
+    padding: 0 10px 0px 0;
+}
+
+#form-advanced-search label {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+/* تنسيق مكون البحث حسب السعر */
+
+.ui.slider {
+    margin: 25px 0 15px;
+    height: 2px !important;
+}
+
+
+/*المقبضان */
+
+.ui.slider .ul-slider-handle {
+    background-color: #f8ad47 !important;
+    border: none !important;
+    border-radius: 50%;
+    height: 12px !important;
+    width: 12px !important;
+    top: -6px !important;
+}
+
+
+/*المجال */
+
+.ui.slider .ul-slider-range {
+    border: 1px solid #f8ad47;
+}
+
 
 /**************************************************************
 ****************
-HEDIA QUERY
+MEDIA QUERY
 *****************
 **************************************************************/
 
@@ -942,6 +994,12 @@ HEDIA QUERY
         margin: 10px;
         line-height: 40px;
         font-size: 20px;
+    }
+    /*search page*/
+    .ui.slider .ul-slider-handle {
+        height: 20px !important;
+        width: 20px !important;
+        top: -10px !important;
     }
 }
 
