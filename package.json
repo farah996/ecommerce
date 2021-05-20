@@ -11,6 +11,7 @@
     "description": "",
     "dependencies": {
         "@laylazi/bootstrap-rtl": "^4.6.0-1",
+        "@laylazi/bootstrap-rtl-scss": "^4.6.0-1",
         "optimize-css-assets-webpack-plugin": "^5.0.4"
     },
     "devDependencies": {
@@ -24,7 +25,10 @@
         "jquery": "^3.6.0",
         "jquery-ui-touch-punch": "^0.2.3",
         "mini-css-extract-plugin": "^1.6.0",
+        "node-sass": "^6.0.0",
         "popper.js": "^1.16.1",
+        "sass": "^1.32.13",
+        "sass-loader": "^11.1.1",
         "style-loader": "^2.0.0",
         "webpack": "^5.36.2",
         "webpack-cli": "^4.6.0",

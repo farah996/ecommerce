@@ -1,7 +1,10 @@
-import '@laylazi/bootstrap-rtl/dist/css/bootstrap-rtl.min.css';
-import './css/style.css';
+import './sass/custom.scss';
+//import '@laylazi/bootstrap-rtl-scss/dist/css/bootstrap-rtl.min.css';
+//import '@laylazi/bootstrap-rtl-scss/scss/bootstrap-rtl.scss';
 
-import 'jquery/dist/jquery.min.js';
+import './css/style.css';
+import './sass/style.scss';
+import 'jquery/dist/jquery.min';
 import 'popper.js/dist/popper.min';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import '@fortawesome/fontawesome-free/js/all.min';

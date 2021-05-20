@@ -46,9 +46,9 @@ module.exports = {
             },
 
             {
-                test: /\.css$/,
+                test: /\.(sa|sc|c)ss$/,
                 use: [
-                    //'style-loader',
+
                     {
                         loader: MiniCssExtractPlugin.loader,
                         options: {
@@ -56,7 +56,8 @@ module.exports = {
 
                         },
                     },
-                    'css-loader'
+                    'css-loader',
+                    'sass-loader'
                 ]
             },
 
@@ -104,37 +105,37 @@ module.exports = {
 
     plugins: [
 
-        new HtmlWebpackPlugin(),
+
         new HtmlWebpackPlugin({
             filename: "index.html",
             template: "./src/index.html",
         }),
 
-        new HtmlWebpackPlugin(),
+
         new HtmlWebpackPlugin({
             filename: "product.html",
             template: "./src/product.html",
         }),
 
-        new HtmlWebpackPlugin(),
+
         new HtmlWebpackPlugin({
             filename: "checkout.html",
             template: "./src/checkout.html",
         }),
 
-        new HtmlWebpackPlugin(),
+
         new HtmlWebpackPlugin({
             filename: "payment.html",
             template: "./src/payment.html",
         }),
 
-        new HtmlWebpackPlugin(),
+
         new HtmlWebpackPlugin({
             filename: "search.html",
             template: "./src/search.html",
         }),
 
-        new HtmlWebpackPlugin(),
+
         new HtmlWebpackPlugin({
             filename: "contact.html",
             template: "./src/contact.html",

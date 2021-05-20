@@ -763,11 +763,22 @@ h1.custom-heading {
     padding: 15px;
     border-bottom: 1px solid #EBEBEB;
     border-top: 1px solid #EBEBEB;
+    font-size: 120px;
 }
 
 .custom-table th:first-child,
 .custom-table td:first-child {
     width: 50%;
+}
+
+.custom-table th:not(first-child),
+.custom-table td:not(first-child) {
+    text-align: center;
+}
+
+.custom-table th {
+    color: #c2c2c2;
+    font-weight: normal;
 }
 
 .custom-btn-danger {
@@ -898,7 +909,7 @@ SEARCH PAGE
 /*المجال */
 
 .ui.slider .ul-slider-range {
-    border: 1px solid #f8ad47;
+    border: 1px solid #f8ad47 !important;
 }
 
 
