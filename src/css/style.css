@@ -761,9 +761,9 @@ h1.custom-heading {
 .custom-table th,
 .custom-table td {
     padding: 15px;
-    border-bottom: 1px solid #EBEBEB;
     border-top: 1px solid #EBEBEB;
-    font-size: 120px;
+    border-bottom: 1px solid #EBEBEB;
+    font-size: 20px;
 }
 
 .custom-table th:first-child,
