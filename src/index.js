@@ -2,8 +2,9 @@ import './sass/custom.scss';
 //import '@laylazi/bootstrap-rtl-scss/dist/css/bootstrap-rtl.min.css';
 //import '@laylazi/bootstrap-rtl-scss/scss/bootstrap-rtl.scss';
 
-import './css/style.css';
+
 import './sass/style.scss';
+import './css/style.css';
 import 'jquery/dist/jquery.min';
 import 'popper.js/dist/popper.min';
 import 'bootstrap/dist/js/bootstrap.min.js';
